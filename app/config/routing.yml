@@ -1,0 +1,10 @@
+dray_user:
+    resource: "@DrayUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+dray_pref:
+    resource: "@DrayPrefBundle/Resources/config/routing.yml"
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
